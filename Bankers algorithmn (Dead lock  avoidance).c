@@ -105,3 +105,74 @@ int main()
 		printf("\t P%d", pronum[i]);
 	}
 }
+
+// Outut:
+
+// Enter the number of processes: 5
+
+// Enter the number of resources: 3
+
+// Enter the resource for instance 1: 10
+
+// Enter the resource for instance 2: 5
+
+// Enter the resource for instance 3: 7
+
+// Enter maximum resource table:
+// 7 5 3
+// 3 2 2
+// 9 0 2
+// 2 2 2
+// 4 3 3
+
+// Enter allocated resource table:
+// 0 1 0
+// 2 0 0
+// 3 0 2
+// 2 1 1
+// 0 0 2
+
+// The resource of instances:       10      5       7
+//  The allocated resource table:
+//          0       1       0
+//          2       0       0
+//          3       0       2
+//          2       1       1
+//          0       0       2
+
+// The maximum resource table:
+//         7       5       3
+//         3       2       2
+//         9       0       2
+//         2       2       2
+//         4       3       3
+
+// Allocated resources:     7       2       5
+// Available resources:     3       3       2
+
+// Process 2 is executing
+
+//  The process is in safe state
+//  The available resource is:      5       3       2
+
+// Process 4 is executing
+
+//  The process is in safe state
+//  The available resource is:      7       4       3
+
+// Process 1 is executing
+
+//  The process is in safe state
+//  The available resource is:      7       5       3
+
+// Process 3 is executing
+
+//  The process is in safe state
+//  The available resource is:      10      5       5
+
+// Process 5 is executing
+
+//  The process is in safe state
+//  The available resource is:      10      5       7
+
+//  The safe sequence of Process is:        P2      P4      P1      P3      P5
