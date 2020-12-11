@@ -76,24 +76,24 @@ int main()
 	      printf("\n total number of page faults %d",pf);
 }
 
-Output:
-Enter the number of pages: 12
+// Output:
+// Enter the number of pages: 12
 
- Enter the page numbers: 4 3 2 1 4 3 5 4 3 2 1 5
+//  Enter the page numbers: 4 3 2 1 4 3 5 4 3 2 1 5
 
- enter number of frames: 3
-PAGE            FRAME
-4       4       -1      -1
-3       4       3       -1
-2       4       3       2
-1       1       3       2
-4       1       4       2
-3       1       4       3
-5       5       4       3
-4       No page fault
-3       No page fault
-2       2       4       3
-1       2       1       3
-5       2       1       5
+//  enter number of frames: 3
+// PAGE            FRAME
+// 4       4       -1      -1
+// 3       4       3       -1
+// 2       4       3       2
+// 1       1       3       2
+// 4       1       4       2
+// 3       1       4       3
+// 5       5       4       3
+// 4       No page fault
+// 3       No page fault
+// 2       2       4       3
+// 1       2       1       3
+// 5       2       1       5
 
- Total no of page faults id :10
+//  Total no of page faults id :10
