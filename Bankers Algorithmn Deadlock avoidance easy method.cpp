@@ -12,7 +12,7 @@ main()
 		running[i]=1;
 		count++;
 	}
-	printf("\n enter the number of resources: ");
+	printf("\n enter the number of resources : ");
 	scanf("%d",&r);
 	for(i=0;i<r;i++)
 	{
